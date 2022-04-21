@@ -28,6 +28,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 40px 0;
 }
 
+.more__info__btn{
+    background-color: #2d64e6;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 25px;
+    text-align: end;
+}
+
 /*F.Buttons*/
 
 /*---Header---*/
@@ -228,4 +236,21 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
 }
 /*f.new__relise*/
+/*playStation4*/
+.playstation4__things .col-lg-4 img{
+    width: 100%;
+}
+.title__playstation4{
+    font-size: 30px;
+}
+.playstation4__things{
+    height: 500px;
+}
+.subtitle__playstation4{
+    font-size: 20px;
+    color: #727272;
+    height: 100px;
+    align-items: center;
+}
+/*f.playStation4*/
 /*---F.Main---*/
