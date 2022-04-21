@@ -78,12 +78,10 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    display: flex;
     align-items: flex-end;
 }
 .hero__content{
     max-width: 550px;
-    display: flex;
     flex-direction: column;
     padding-bottom: 70px;
     margin: 0 40px;
@@ -105,14 +103,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     margin-bottom: 25px;
 }
-.hero__imgs__style{
-    text-align: center;
-}
 
 .hero__imgs__style a img{
     max-width: 220px;
     border-radius: 20px;
-    margin: 20px 0;
 }
 /*f.hero*/
 /*---F.Header---*/
@@ -121,9 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 /*---Main---*/
 /*f.playstation*/
 .playstation__center{
-    display: flex;
     align-items: center;
-    margin: 0 40px;
 }
 .playstation__top{
     margin: 100px 0;
@@ -158,16 +150,15 @@ h1, h2, h3, h4, h5, h6 {
 .playstation__bottom {
     width: 100%;
     display: flex;
-    justify-content: center;
     
 }
 .playstation__bottom__content{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
-    text-align: center;
+    width: 100%;
+}
+.playstation__bottom__content img{
+    max-width: 250px;
 }
 /*f.playstation*/
 
@@ -180,7 +171,6 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    display: flex;
     align-items: flex-end;
 }
 .take__two__content{
@@ -188,7 +178,6 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     padding-bottom: 70px;
-    margin: 0 40px;
 }
 .take__two__logo{
     margin-top: 50px;
@@ -212,7 +201,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0;
 }
 .new__relise__title, .new__relise__subtitle{
-    padding: 0 40px;
     padding-top: 20px;
     color: #fff;
 }
@@ -226,13 +214,12 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 .new__relise__style a img{
-    max-width: 220px;
+    max-width: 100%;
     height: auto;
     border-radius: 20px;
     margin: 20px 0;
 }
 .new__relise__text{
-    max-width: 220px;
     color: #fff;
     font-size: 20px;
     text-align: left;
