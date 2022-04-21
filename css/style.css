@@ -33,7 +33,13 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 300px;
     margin: 20px 0;
     border-radius: 25px;
-    text-align: end;
+}
+.playstation__plus__btn{
+    background-color: #d9dadc;
+    color: #2d64e6;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 25px;
 }
 
 /*F.Buttons*/
@@ -243,9 +249,6 @@ h1, h2, h3, h4, h5, h6 {
 .title__playstation4{
     font-size: 30px;
 }
-.playstation4__things{
-    height: 500px;
-}
 .subtitle__playstation4{
     font-size: 20px;
     color: #727272;
@@ -253,4 +256,24 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 /*f.playStation4*/
+.playstation__plus{
+    width: 100%;
+    background-color: #bebcbb;
+}
+.playstation__plus__logo{
+    padding: 40px 0;
+    width: 350px;
+}
+.playstation__plus__img{
+    width: 100%;
+}
+.subtitle__playstation__plus{
+    font-size: 20px;
+    color: #000;
+    height: 100px;
+    align-items: center;
+}
+.playstation__plus__align{
+    align-items: center;
+}
 /*---F.Main---*/
